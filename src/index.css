@@ -107,11 +107,31 @@ button.mute-unmute-button{
 
 .question-form-text-field{
   border:1px solid black !important;
-  height:50px !important;
+  
   padding-left:10px !important;
 }
 
-.question-form-text-field:active{
+.big-form{
+  height:78px !important;
+}
+
+.big-form:focus{
+  transition: 1s ease-in-out;
+}
+
+.small-form{
+  height:50px !important;
+}
+
+.big-button{
+  height:80px !important;
+}
+
+.small-button{
+  height:52px !important;
+}
+
+.question-form-text-field:focus{
   border:1px solid teal !important;
 }
 
@@ -123,5 +143,12 @@ button.mute-unmute-button{
   border-color: black;
   color:whitesmoke;
   padding:0px 15px;
-  height:52px;
+  /* height:52px; */
+  transition: 0s ease-in-out;
+}
+
+.ask-button:hover{
+  background: rgb(41, 39, 39);
+  border-color:rgb(41, 39, 39);
+  transition: 0s ease-in-out;
 }
