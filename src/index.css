@@ -11,3 +11,117 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.video-player-dummy{
+  height:75vh;
+  color:white;
+  text-align: center;
+}
+.question-raised-wrapper{
+  height:75vh;
+  overflow-y: auto;
+  /* margin-left:0px; */
+  margin:0px;
+  padding:0px;
+}
+.no-margin-padding{
+  margin:0px !important;
+  padding:0px !important;
+}
+.question-raised-title-card{
+  /* position: fixed; */
+  /* width:100%; */
+  margin: 0px;
+  /* margin-bottom:25px; */
+  padding:15px;
+  text-align: center;
+  color:rgb(43, 42, 42);
+}
+.questionWrapper{
+  margin-top:10px;
+  /* border:1px solid red; */
+}
+.question{
+  padding: 5px 5px;
+}
+.question-paragraph{
+  margin:0px;
+  padding:10px;
+  background: rgb(204, 201, 201);
+  text-overflow: ellipsis;
+  border:1px solid rgb(204, 201, 201);
+  border-radius: 7px;
+}
+.user{
+  color:blue;
+  cursor: pointer;
+}
+.attendance-wrapper{
+  margin:0px;
+  /* margin-top:-19px; */
+  padding:20px;
+  margin-bottom:20px;
+  background:rgb(192, 179, 179);
+}
+.no-bottom-margin-padding{
+  margin-bottom:0px;
+  padding-bottom:0px;
+}
+.attendance-title-card{
+  padding:15px;
+  text-transform:uppercase;
+}
+.student-span{
+  text-transform: uppercase;
+}
+.student-wrapper{
+  background:green;
+}
+.student-list{
+  display: flex;
+  margin-top:15px;
+  /* padding-left:15px; */
+}
+ul.student-list li{
+  margin:0px 5px;
+  padding:15px;
+  text-transform:uppercase;
+  background:white;
+}
+button.mute-unmute-button{
+  background:none;
+  border:0px;
+}
+.theStudent:hover{
+      cursor: pointer;
+      box-shadow: 2px 1px rgb(170, 165, 165);
+      transition: 0.5s;
+}
+.margin-top-20{
+  margin-top:20px;
+}
+
+.margin-top-50{
+  margin-top:50px;
+}
+
+.question-form-text-field{
+  border:1px solid black !important;
+  height:50px !important;
+  padding-left:10px !important;
+}
+
+.question-form-text-field:active{
+  border:1px solid teal !important;
+}
+
+.inline-form{
+  display: flex;
+}
+.ask-button{
+  background:black;
+  border-color: black;
+  color:whitesmoke;
+  padding:0px 15px;
+  height:52px;
+}
